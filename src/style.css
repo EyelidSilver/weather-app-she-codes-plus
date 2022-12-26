@@ -1,0 +1,71 @@
+h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+}
+
+h1.temperature {
+  display: inline;
+  font-size: 50px;
+}
+
+input {
+  width: 100%;
+}
+
+.search::placeholder {
+  padding-left: 20px;
+}
+
+span {
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+.snow-icon {
+  font-size: 50px;
+}
+
+.d-icon {
+  font-size: 30px;
+  text-align: center;
+}
+
+.week-temp p {
+  text-align: center;
+}
+
+.container {
+  max-width: 700px;
+  min-width: 530px;
+  margin: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justifyCenter {
+  justify-content: space-between;
+}
+
+.hum-wind {
+  align-self: flex-end;
+}
+
+.city {
+  margin-bottom: 20px;
+}
+
+#description {
+  text-transform: capitalize;
+}
